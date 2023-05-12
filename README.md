@@ -11,6 +11,7 @@ This project should display a button which, when clicked, will show a random ico
 - Angular 14
 - TypeScript
 - RxJS
+- Fonts Awesome 
 
 ## Development server
 Run `npm install` for installation and then `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
