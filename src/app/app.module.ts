@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RandomIconGeneratorComponent } from './components/random-icon-generator/random-icon-generator.component';
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { RandomIconGeneratorComponent } from './components/random-icon-generator
     BrowserModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
